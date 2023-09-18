@@ -18,14 +18,3 @@ export class CustomerRewardsDTO {
   reward_points: number = 0;
 
 }
-
-// export class GetEncounterDTO extends RequestDTO {
-//     @IsNotEmpty()
-//     @ValidateNested({ each: true })
-//     @Type(() => GetEncounterRequestDTO)
-//     @ApiProperty({
-//         description: 'GetEncounterRequestDTO',
-//         example: '{}',
-//     })
-//     requestObj: GetEncounterRequestDTO;
-// }
